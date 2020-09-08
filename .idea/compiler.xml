@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Maven-Intro" />
+        <module name="test21" />
         <module name="Maven Intro" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Maven-Intro" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
